@@ -12,19 +12,19 @@
     </header>
     <nav>
         <ul>
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Crear Nuevo Correo</a></li>
-            <li><a href="">Estadisticas</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#correo">Crear Nuevo Correo</a></li>
+            <li><a href="#estadisticas">Estadisticas</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="dashboard">
             <h2>Dashboard</h2>
         </section>
 
-        <section>
+        <section id="correo">
             <h2>Crear Nuevo Correo</h2>
-            <form action="">
+            <form id="formulario">
                 <label for="asunto">Asunto:</label>
                 <input type="text" id="asunto" name="asunto" required>
 
@@ -39,6 +39,10 @@
 
                 <button type="submit">Programar Correo</button>
             </form>
+        </section>
+
+        <section id="estadisticas">
+            <h2>Estadisticas de Correo</h2>
         </section>
     </main>
 </body>
